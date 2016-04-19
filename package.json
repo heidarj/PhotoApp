@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "node test shit",
   "main": "app.js",
+  "name": "PhotoApp",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -20,4 +24,5 @@
     "express": "^4.13.3",
     "nodemon": "^1.9.1"
   }
+}
 }
